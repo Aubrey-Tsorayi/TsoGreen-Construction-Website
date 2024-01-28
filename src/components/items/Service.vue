@@ -12,13 +12,13 @@ function getImgURl() {
 </script>
 
 <template>
-    <div name="main-row" class="flex group scale-90 ml-20 py-10 hover:scale-95 bg-gray-100 rounded-2xl shadow-xl">
-        <div class=" flex items-center gap-5 p-5">
-            <div name="">
+    <div class="flex group scale-90 lg:ml-20 py-2 lg:py10">
+        <div class="flex-row space-y-5 lg:flex text-center lg:text-left items-center gap-5 p-5">
+            <div class="flex justify-center">
                 <img :src="getImgURl()" class="w-60 rounded-lg shadow-lg " alt="">
             </div>
             <div class="flex-row">
-                <div name="text" class="flex">
+                <div class="lg:flex">
                     <h1 class="text-3xl font-bold font-title group-hover:text-green-500 ">{{ title }}</h1>
                 </div>
                 <div>

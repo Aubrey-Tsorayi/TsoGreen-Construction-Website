@@ -3,38 +3,29 @@
 </script>
 
 <template>
-   
+
 
 <footer class="bg-green-500 font-title">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-5">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
-                  <img src="../assets/logo.jpg" class="h-8 me-3" alt="FlowBite Logo" />
+                  <img src="../assets/logo.jpg" class="h-8 me-3" alt="TsoGreen Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap">TSORGREEN</span>
               </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Quick Links</h2>
-                  <ul class="font-medium">
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">Home</a>
-                      </li>
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">About Us</a>
-                      </li>
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">Services</a>
-                      </li>
-                      <li class="mb-4">
-                          <a href="#/" class="hover:underline">Get A Qoute</a>
-                      </li>
+          <div class="">
+              <div class="flex items-center lg:items-start lg:flex-row">
+                  <ul class="flex flex-col space-y-6 lg:space-y-0 lg:space-x-6 lg:flex-row ml-3">
+                    <RouterLink to="/" class="hover:text-white hover:cursor-pointer font-title">Home</RouterLink>
+                    <RouterLink to="/about" class="hover:text-white hover:cursor-pointer font-title truncate">About Us</RouterLink>
+                    <RouterLink to="/services" class="hover:text-white hover:cursor-pointer font-title truncate">Services</RouterLink>
+                    <RouterLink to="/contact" class="hover:text-white hover:cursor-pointer font-title truncate">Get a Qoute</RouterLink>
                   </ul>
               </div>
           </div>
-      </div>
-      <hr class="my-6 border-black-200 sm:mx-auto lg:my-8" />
+        </div>
+      <hr class="my-6 border-black-200 sm:mx-auto lg:my-4" />
       <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-black sm:text-center ">© 2024 <a href="/" class="hover:underline">TsoGreen Construction™</a>. All Rights Reserved.
           </span>

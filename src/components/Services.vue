@@ -10,7 +10,7 @@ const services = [
         img: "reno.jpg"
     },
     {
-        title: "Building Extensions",
+        title: "Office Space & Building Extensions",
         img: "extenn2.jpg"
     },
     {
@@ -30,7 +30,7 @@ const services = [
             <div class="flex justify-center">
                 <h1 class="text-green-500 text-4xl font-bold font-title">Our Services</h1>
             </div>
-            <div name="columns-2" class="grid grid-cols-2 gap-2 p-5">
+            <div class="flex-wrap md:grid md:grid-cols-2 md:items-center md:text-wrap lg:grid lg:grid-cols-2 lg:gap-2 p-5 ">
                 <Collection v-for="service in services" :key="service.title" :title="service.title" :img="service.img"/>
             </div>
     </div>

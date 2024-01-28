@@ -1,19 +1,19 @@
 <template>
-    <div class="columns-2 mr-10">
+    <div class="flex-wrap lg:columns-2 lg:mr-10 space-y-5">
         <div class="flex-row">
-            <div class="flex justify-center pt-36 animate-pulse">
-                <h1 class="text-7xl font-bold font-title">TSO</h1>
-                <h1 class="text-7xl font-bold text-green-500 font-title">GREEN</h1>
+            <div class="flex justify-center pt-10 lg:pt-36 animate-pulse">
+                <h1 class="text-6xl lg:text-7xl font-bold font-title">TSO</h1>
+                <h1 class="text-6xl lg:text-7xl font-bold text-green-500 font-title">GREEN</h1>
             </div>
             <div class="flex justify-center pt-2">
-                <h1 class="text-xl italic font-title">"Where Quality is our Speciality"</h1>
+                <h1 class="lg:text-xl italic font-title">"Where Quality is our Speciality"</h1>
             </div>
             <div class="flex justify-center gap-5 pt-8">
                 <button class="bg-green-500 p-2 rounded-md font-title text-white">Services</button>
                 <button class="bg-green-500 p-2 rounded-md font-title text-white">Get a Qoute</button>
             </div>
         </div>
-        <div class="mr-5">
+        <div class="p-5 lg:p-0 lg:mr-5">
             <Carousel :autoplay="2000" :wrap-around="true">
                 <Slide v-for="slide in 1" :key="slide">
                     <img src="../assets/building1.jpg" alt="">

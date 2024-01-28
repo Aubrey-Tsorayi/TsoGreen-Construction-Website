@@ -12,29 +12,29 @@ const services = [
         desc:"We transform home and office spaces by combining our client's vision with our expertise in creating beautiful and functional spaces."
     },
     {
-        title: "Building Extensions",
+        title: "Office Space & Building Extensions",
         img: "extenn2.jpg",
         desc: "No matter the function or purpose of the space required, TSOGREEN is determined to seamlessly blend the old with the new structures. Alternatively, we also bring new life into old buildings by enhancing functionality and comfort for modern living."
     },
     {
         title: "Project Management",
         img: "proj.jpg",
-        desc: "Where you are building cluster homes, commercial structures, school, warehouses, etc, TSOGREEN's Project Management department is available to assist in the planning and execution of these larger projects. Our team is dedicated to meet the completion date of each project it starts."
+        desc: "Where you are building cluster homes, commercial structures, school, warehouses, etc, TSOGREEN's Project Management department is available to add value from the planning stage to execution of larger projects. Our team is dedicated to meet the completion date of each project the team embarks on."
     },
     {
         title: "Sub-contracting",
         img: "sub.jpg",
-        desc: "Where a project may require qualified tradesmen, TSOGREEN takes on jobs as a sub-contractor for the following trades: brickwork, concrete works, steel fixing, flooring, plastering, skimming, tiling, painting, ceilings, roofing, carpentry and paving."
+        desc: "Where a project may require qualified tradesmen, TSOGREEN takes on jobs as a sub-contractor for the following trades: brickwork, concrete works, steel fixing, flooring, plastering, skimming, tiling, painting, ceilings, roofing, carpentry and paving."
     },
 ]
 </script>
 
 <template>
-    <div class="flex-row">
-        <div class="flex justify-center py-5">
+    <div class="flex-row pt-5">
+        <div class="flex justify-center py-2">
             <h1 class="font-title font-bold text-4xl text-green-500">Our Services</h1>
         </div>
-        <hr class="w-96 h-1 mx-auto my-3 border-0 rounded md:my-10 bg-gray-700">
+        <hr class="w-52 lg:w-80 h-1 mx-auto my-3 border-0 rounded md:my-10 bg-gray-700">
         <div class="py-5">
             <Service v-for="service in services" :key="service.title" :title="service.title" :img="service.img" :desc="service.desc"/>
         </div>

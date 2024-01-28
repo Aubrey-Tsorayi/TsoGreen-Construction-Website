@@ -1,22 +1,14 @@
 <script setup>
-import { Icon } from '@iconify/vue';
+
 </script>
 
-
 <template>
-    <header class="flex justify-between bg-green-500 p-2 text-white"> 
-        <div class="ml-20">
-            <ul class="flex space-x-4 font-title">
+    <header class="flex lg:justify-between md:justify-between justify-center bg-green-500 p-1 text-white">
+        <div class="lg:ml-20 md:ml-10">
+            <ul class="flex flex-col md:flex-row md:space-x-2 lg:flex-row lg:space-x-4 font-title text-sm">
                 <li>+263 77 210 4560</li>
                 <li>johndoe@example.com</li>
                 <li>Harare, Zimbabwe</li>
-            </ul>
-        </div>
-        <div class="mr-20">
-            <ul class="flex space-x-4">
-                <li><Icon icon="teenyicons:facebook-solid" width="22" /></li>
-                <li><Icon icon="teenyicons:instagram-solid" width="22" /></li>
-                <li><Icon icon="teenyicons:twitter-solid" width="22" /></li>
             </ul>
         </div>
     </header>

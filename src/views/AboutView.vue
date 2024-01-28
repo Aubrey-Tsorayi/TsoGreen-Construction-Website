@@ -2,8 +2,8 @@
   <div class="flex-row items-start pt-10">
     <div class="flex-row">
       <div class="flex justify-center animate-pulse">
-        <h1 class="font-title font-bold text-7xl">TSO</h1>
-        <h1 class="font-title font-bold text-7xl text-green-500">GREEN</h1>
+        <h1 class="font-title font-bold text-6xl lg:text-7xl">TSO</h1>
+        <h1 class="font-title font-bold text-6xl lg:text-7xl text-green-500">GREEN</h1>
       </div>
       <div class="flex justify-center pt-2">
         <p class="font-title italic text-sm">"Where Quality is our Speciality"</p>
@@ -39,7 +39,7 @@
         </span>
       </div>
     </div>
-    <div class="columns-2 mb-10 max-w-screen-md mx-auto">
+    <div class="flex-wrap space-y-5 lg:columns-2 mb-10 max-w-screen-md mx-auto text-center">
       <div class="flex-row">
         <h1 class="text-green-500 text-2xl font-title font-bold pb-5">Misson</h1>
         <span class="font-title">
@@ -59,7 +59,7 @@
         <h1 class="text-2xl text-green-500 font-title font-bold">Our Values</h1>
       </div>
       <div class="flex justify-center pt-5 mb-10 gap-20">
-        <div class="flex gap-5">
+        <div class="lg:flex gap-5 text-center">
           <h1 class="text-2xl font-title hover:text-green-500 hover:scale-105">Integrity</h1>
           <span>.</span>
           <h1 class="text-2xl font-title hover:text-green-500 hover:scale-105">Accountability</h1>
@@ -72,11 +72,5 @@
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
 </style>
