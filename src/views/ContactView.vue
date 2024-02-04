@@ -20,7 +20,8 @@ const isValidMessage = computed(() => formData.value.message.trim() !== '');
 const submitForm = () => {
   if (isValidName.value && isValidEmail.value && isValidMessage.value) {
     // Form is valid, you can perform your submit logic here
-    console.log('Form submitted:', formData.value);
+    alert('Form Submitted')
+    window.location.replace('/contact')
   } else {
     // Form is not valid, you can handle validation errors here
     console.log('Form validation failed');
@@ -42,7 +43,7 @@ const submitForm = () => {
     </div>
 
     <div class="lg:min-h-screen flex items-center justify-center">
-    <form @submit.prevent="submitForm" class="p-8 rounded shadow-lg">
+    <form @submit="" method="post" action="https://formsubmit.co/tutsirayit.tt@gmail.com" class="p-8 rounded shadow-lg">
 
       <div class="mb-4">
         <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
