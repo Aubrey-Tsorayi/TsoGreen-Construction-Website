@@ -21,7 +21,7 @@
           <div class="flex-row ">
             <div class="text-2xl font-bold font-title hover:text-green-500">What we do</div>
             <div class="text-sm font-title">
-              <p>Completing any project it starts within agreed timelines and costs with its clients.
+              <p>With our dynamic expertise, TSOGREEN takes pride in completing any project it takes on with the agreed time frames and costs with its clients.
               </p>
             </div>
           </div>
