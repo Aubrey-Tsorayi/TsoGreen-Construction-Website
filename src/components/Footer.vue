@@ -11,7 +11,7 @@
           <div class="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
                   <img src="../assets/logo.jpg" class="h-8 me-3" alt="TsoGreen Logo" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap">TSORGREEN</span>
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap">TSOGREEN</span>
               </a>
           </div>
           <div class="">
