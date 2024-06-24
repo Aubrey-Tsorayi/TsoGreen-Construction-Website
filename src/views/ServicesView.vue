@@ -39,7 +39,7 @@ const services = [
             <Service v-for="service in services" :key="service.title" :title="service.title" :img="service.img" :desc="service.desc"/>
         </div>
         <div class="flex justify-center py-5">
-            <RouterLink to="/contact" class="bg-green-500 p-3 rounded text-white font-title hover:scale-110">Get a Qoute</RouterLink>
+            <RouterLink to="/contact" class="bg-green-500 p-3 rounded text-white font-title hover:scale-110">Get a Quote</RouterLink>
         </div>
     </div>
 </template>
